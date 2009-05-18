@@ -1,0 +1,23 @@
+[Globals]
+CacheVersion=1
+nextIndex=2
+
+[default]
+captureDevice=true
+cardName=PulseAudio Sound Server
+driver=0
+icon=audio-card
+index=1
+initialPreference=30
+isAdvanced=false
+playbackDevice=true
+
+[pulse]
+captureDevice=true
+cardName=PulseAudio Sound Server
+driver=0
+icon=audio-card
+index=6
+initialPreference=30
+isAdvanced=false
+playbackDevice=true

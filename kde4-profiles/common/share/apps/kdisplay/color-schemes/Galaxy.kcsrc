@@ -1,0 +1,22 @@
+[Color Scheme]
+Name=Galaxy
+activeBackground=33,68,156
+activeBlend=33,68,156
+activeForeground=255,255,255
+activeTitleBtnBg=238,238,230
+alternateBackground=238,246,255
+background=230,231,230
+buttonBackground=230,231,230
+buttonForeground=0,0,0
+contrast=7
+foreground=0,0,0
+inactiveBackground=237,237,237
+inactiveBlend=237,237,237
+inactiveForeground=255,255,255
+inactiveTitleBtnBg=238,238,230
+linkColor=0,0,192
+selectBackground=33,68,156
+selectForeground=255,255,255
+visitedLinkColor=128,0,128
+windowBackground=255,255,255
+windowForeground=0,0,0

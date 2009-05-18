@@ -1,0 +1,10 @@
+[Settings]
+Delay=20
+Directory=/usr/share/mdk/screensaver
+PrintName=false
+RandomPosition=false
+ShowRandom=true
+SubDirectory=false
+UseCrossFade=true
+UsePreEffects=false
+ZoomImages=false

@@ -1,0 +1,33 @@
+[KSplash Theme: Powerpack]
+Name = Mandriva Powerpack Splash Screen
+Description = Mandriva KDE4 Splash Screen for Powerpack
+Version = 1.0
+
+Engine = kde4-splash-mdv
+
+SVGFile = kde_splash_pwpck_1280_1024.svg
+SVGFileWide = kde_splash_pwpck_1920_1200.svg
+
+Background = :background
+
+Status = :Status
+StatusFont = Helvetica, 15
+StatusColor = 255, 255, 255
+
+//Status-kded = Starting kded
+//Status-kcminit = Starting kcminit
+//Status-wm = Starting wm
+
+AnimationItems = 4
+
+Image1 = :Stage1
+ImageStep1 = kded 
+
+Image2 = :Stage2
+ImageStep2 = kcminit 
+
+Image3 = :Stage3
+ImageStep3 = ksmserver
+
+Image4 = :Stage4
+ImageStep4 = wm 

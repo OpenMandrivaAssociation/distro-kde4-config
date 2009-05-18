@@ -1,0 +1,42 @@
+[Main Window Settings Toolbar Speech Toolbar]
+Hidden=false
+IconText=IconOnly
+Index=4
+
+[Main Window Settings Toolbar bookmarkToolBar]
+Hidden=true
+IconText=IconTextRight
+Index=3
+
+[Main Window Settings Toolbar extraToolBar]
+IconText=IconOnly
+Index=1
+NewLine=true
+
+[Main Window Settings Toolbar locationToolBar]
+Hidden=true
+IconText=IconOnly
+Index=2
+
+[Main Window Settings Toolbar mainToolBar]
+Index=1
+
+[Profile]
+FullScreen=false
+Name=devices
+Name=Devices
+Name[pt_BR]=Dispositivos
+Name[fr]=Périphériques
+Name[it]=Dispositivi
+Name[es]=Dispositivos
+RootItem=Tabs0
+Tabs0_Children=ViewT0
+Tabs0_activeChildIndex=0
+ViewT0_LinkedView=false
+ViewT0_LockedLocation=false
+ViewT0_PassiveMode=false
+ViewT0_ServiceName=konq_iconview
+ViewT0_ServiceType=inode/directory
+ViewT0_ToggleView=false
+ViewT0_URL=devices:/
+XMLUIFile=konqueror.rc

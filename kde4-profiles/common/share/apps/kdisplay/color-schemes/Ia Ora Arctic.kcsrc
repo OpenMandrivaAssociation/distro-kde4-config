@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Ia Ora Arctic
+activeBackground=142,199,255
+activeBlend=142,199,255
+activeForeground=255,255,255
+activeTitleBtnBg=238,238,230
+alternateBackground=238,246,255
+background=239,243,247
+buttonBackground=239,243,247
+buttonForeground=0,0,0
+contrast=7
+foreground=0,0,0
+frame=230,231,230
+handle=230,231,230
+inactiveBackground=239,243,247
+inactiveBlend=239,243,247
+inactiveForeground=239,243,247
+inactiveFrame=230,231,230
+inactiveHandle=230,231,230
+inactiveTitleBtnBg=238,238,230
+linkColor=0,0,192
+selectBackground=142,199,255
+selectForeground=0,0,0
+shadeSortColumn=true
+visitedLinkColor=128,0,128
+windowBackground=255,255,255
+windowForeground=0,0,0

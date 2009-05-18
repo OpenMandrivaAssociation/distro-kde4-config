@@ -1,0 +1,14 @@
+[General]
+Debug Enabled=false
+HiddenOnExit=false
+
+[Playback]
+Fadeout=false
+
+[Plugins]
+Cool StreamsEnabled=false
+ImporterEnabled=false
+Librivox.orgEnabled=false
+LyricWikiEnabled=false
+Lyrics (Chinese Support)Enabled=true
+lyrcEnabled=true

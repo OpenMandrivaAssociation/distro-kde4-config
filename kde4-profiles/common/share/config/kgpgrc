@@ -1,0 +1,13 @@
+[General Options]
+photo properties=Small
+trust filter=Unknown
+First run=false
+
+[Servers]
+Server_List=hkp://subkeys.pgp.net,hkp://search.keyserver.net,hkp://wwwkeys.pgp.net,hkp://pgp.dtype.org,hkp://wwwkeys.us.pgp.net
+
+[TipOfDay]
+RunOnStart=false
+
+[User Interface]
+AutoStart=false

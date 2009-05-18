@@ -1,0 +1,8 @@
+[Applet Browser]
+used=,systemtray,lockout,digital-clock,tasks,showdesktop,notifier,pager,simplelauncher
+
+[PlasmaViews][3]
+panelVisibility=0
+
+[Theme]
+name=Aya

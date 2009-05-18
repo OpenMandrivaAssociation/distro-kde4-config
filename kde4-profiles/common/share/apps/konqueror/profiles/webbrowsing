@@ -1,0 +1,113 @@
+[Main Window Settings Toolbar Speech Toolbar]
+IconText=IconOnly
+Index=4
+
+[Main Window Settings Toolbar bookmarkToolBar]
+IconText=IconTextRight
+Index=3
+
+[Main Window Settings Toolbar extraToolBar]
+IconText=IconOnly
+Index=0
+
+[Main Window Settings Toolbar locationToolBar]
+IconText=IconOnly
+Index=2
+
+[Main Window Settings Toolbar mainToolBar]
+Index=1
+
+[Profile]
+FullScreen=false
+Height=600
+
+Name=Mandriva Web Browsing
+Name[af]=Web Blaaier
+Name[ar]=تصفح الشبكة
+Name[az]=Veb Gəzintisi
+Name[be]=Вандроўка па Сеціве
+Name[bn]=ওয়েব ব্রাউজিং
+Name[br]=Furchal ar Gwiad
+Name[bs]=Pretraživanje weba
+Name[ca]=Navegació Web
+Name[cs]=Prohlížení internetu
+Name[csb]=Przezéranié sécë
+Name[cy]=Pori'r W?
+Name[da]=Netsøgning
+Name[de]=Webbrowser
+Name[el]=Περιήγηση ιστού
+Name[eo]=TTTumado
+Name[es]=Navegación en Web Mandriva
+Name[et]=Veebi lehitsemine
+Name[eu]=Web arakaketa
+Name[fa]=مرورگر وب‌
+Name[fi]=WWW-selailu
+Name[fr]=Navigation web Mandriva
+Name[fy]=Webblêdzje
+Name[ga]=Brabhsáil Lín
+Name[gl]=Navegación Web
+Name[he]=גלישה באינטרנט
+Name[hi]=वेब ब्राउजिंग
+Name[hr]=Pregledavanje Interneta
+Name[hu]=Webböngésző
+Name[id]=Menjelajahi Web
+Name[is]=Flakk um vefinn
+Name[it]=Navigazione Web
+Name[ja]=ウェブ閲覧
+Name[kk]=Веб браузер
+Name[km]=ការ​រុករក​បណ្ដាញ
+Name[ko]=웹 브라우징
+Name[lo]=ຮງກເບິ່ງເວ໊ບເພຈ
+Name[lt]=Žiniatinklio naršymas
+Name[lv]=Tīmekļa Pārlūkošana
+Name[mk]=Веб-прелистување
+Name[mn]=Вэб-Хөтөч
+Name[ms]=Pelayaran Web
+Name[nb]=Nettlesing
+Name[nds]=Nettkieken
+Name[ne]=वेब ब्राउजिङ
+Name[nl]=Webbrowsen
+Name[nn]=Vevsurfing
+Name[nso]=Boinyakisi bja Web
+Name[oc]=Navigacion Oeb
+Name[pa]=ਵੈੱਬ ਝਲਕ
+Name[pl]=Przeglądanie sieci
+Name[pt]=Navegação Web Mandriva
+Name[pt_BR]=Navegação Web Mandriva
+Name[ro]=Navigare WEB
+Name[ru]=Веб-браузер
+Name[rw]=Icukumbura ry'Urubugamakuru
+Name[se]=Fierpmádatgolgadeapmi
+Name[sk]=Web prehliadanie
+Name[sl]=Brskanje po spletu
+Name[sr]=Прегледање Веба
+Name[sr@Latn]=Pregledanje Veba
+Name[sv]=Webbläsning
+Name[ta]=வலை உலாவி
+Name[te]=వెబ్ బ్రౌజింగ్
+Name[tg]=Тафсири Вэб
+Name[th]=เรียกดูเว็บ
+Name[tr]=Web Tarama
+Name[tt]=Web Küzätü
+Name[uk]=Навігація Тенет
+Name[uz]=Веб кўриш
+Name[ven]=Burausini ya Webu
+Name[vi]=Duyệt Mạng
+Name[wa]=Naiviaedje waibe
+Name[xh]=Ukhangelo lwencwadi ze Web
+Name[zh_CN]=Web 浏览
+Name[zh_TW]=網頁瀏覽
+Name[zu]=Ukucinga kwi-Web
+
+RootItem=Tabs0
+Tabs0_Children=ViewT0
+Tabs0_activeChildIndex=0
+ViewT0_LinkedView=false
+ViewT0_LockedLocation=false
+ViewT0_PassiveMode=false
+ViewT0_ServiceName=khtml
+ViewT0_ServiceType=text/html
+ViewT0_ToggleView=false
+ViewT0_URL[$e]=file:///usr/share/doc/HTML/index.html
+Width=800
+XMLUIFile=konqueror.rc
