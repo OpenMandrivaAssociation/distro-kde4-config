@@ -5,7 +5,6 @@ update_info=kded.upd:kde3.0
 widgetStyle=iaora-qt
 Name=Ia Ora Smooth
 shadeSortColumn=true
-BrowserApplication[$e]=!firefox
 
 [KFileDialog Settings]
 Automatically select filename extension=true
