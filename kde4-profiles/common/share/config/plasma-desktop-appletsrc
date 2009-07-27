@@ -63,11 +63,15 @@ immutability=1
 plugin=simplelauncher
 zvalue=0
 
+[Containments][2][Applets][17][Configuration]
+icon=mdvbutton
+
 [Containments][2][Applets][2]
 geometry=84,3,32,32
 immutability=1
 plugin=notifier
 zvalue=0
+
 
 [Containments][2][Applets][3]
 geometry=120,3,32,32
