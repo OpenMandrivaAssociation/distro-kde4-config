@@ -3,6 +3,7 @@ embed-application/annodex=true
 embed-application/asx=true
 embed-application/futuresplash=true
 embed-application/vlc=true
+embed-application/xhtml+xml=true
 embed-application/x-mplayer2=true
 embed-application/x-ms-wms=true
 embed-application/x-nsv-vp3-mp3=true
