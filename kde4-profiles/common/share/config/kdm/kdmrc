@@ -459,7 +459,7 @@ Theme=/usr/share/apps/kdm/themes/mandriva-kde4
 #ServerAttempts=1
 # How long to wait for a local X-server to come up.
 # Default is 15
-#ServerTimeout=15
+ServerTimeout=120
 # The command line to start the X-server, without display number and VT spec.
 # This string is subject to word splitting.
 # Default is "/usr/bin/X -br"
