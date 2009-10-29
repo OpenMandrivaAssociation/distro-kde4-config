@@ -8,7 +8,7 @@ Engine = kde4-splash-mdv
 SVGFile = kde_splash_free_1280_1024.svg
 SVGFileWide = kde_splash_free_1920_1200.svg
 
-Background = :background
+Background = :stage00
 
 Status = :Status
 StatusFont = Helvetica, 15
@@ -18,13 +18,22 @@ StatusColor = 255, 255, 255
 //Status-kcminit = Starting kcminit
 //Status-wm = Starting wm
 
-AnimationItems = 3
+AnimationItems = 6
 
-Image1 = :Stage1
+Image1 = :stage01
 ImageStep1 = kded 
 
-Image2 = :Stage2
-ImageStep2 = kcminit 
+Image2 = :stage02
+ImageStep2 = confupdate 
 
-Image3 = :Stage3
-ImageStep3 = wm 
+Image3 = :stage03
+ImageStep3 = kcminit
+
+Image4 = :stage04
+ImageStep4 = ksmserver
+
+Image5 = :stage05
+ImageStep5 = wm
+
+Image6 = :stage06
+ImageStep6 = desktop
