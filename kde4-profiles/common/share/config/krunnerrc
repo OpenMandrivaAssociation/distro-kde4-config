@@ -1,3 +1,6 @@
 [Interface]
 Height 600=58
 Width 800=400
+
+[General]
+FreeFloating=true
