@@ -1,5 +1,6 @@
 [General]
 BrowseThroughArchives=true
+ShowCopyMoveMenu=true
 
 [KDE]
 ShowDeleteCommand=false
