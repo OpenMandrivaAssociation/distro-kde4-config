@@ -10,6 +10,7 @@ location=0
 plugin=folderview
 screen=0
 textColor=255,255,255
+zvalue=0
 wallpaperplugin=timeoftheday
 wallpaperpluginmode=
 
@@ -59,6 +60,9 @@ immutability=1
 plugin=simplelauncher
 zvalue=0
 
+[Containments][2][Applets][17][LayoutInformation]
+Order=0
+
 [Containments][2][Applets][17][Configuration]
 icon=mdvbutton
 
@@ -68,12 +72,17 @@ immutability=1
 plugin=notifier
 zvalue=0
 
+[Containments][2][Applets][2][LayoutInformation]
+Order=1
 
 [Containments][2][Applets][3]
 geometry=120,3,32,32
 immutability=1
 plugin=showdesktop
 zvalue=0
+
+[Containments][2][Applets][3][LayoutInformation]
+Order=2
 
 [Containments][2][Applets][4]
 geometry=156,3,32,32
@@ -84,6 +93,9 @@ zvalue=0
 [Containments][2][Applets][4][Configuration]
 Url=file:///usr/share/applications/kde4/systemsettings.desktop
 
+[Containments][2][Applets][4][LayoutInformation]
+Order=4
+
 [Containments][2][Applets][5]
 geometry=192,3,32,32
 immutability=1
@@ -92,6 +104,9 @@ zvalue=0
 
 [Containments][2][Applets][5][Configuration]
 Url=file:///usr/share/applications/mandriva-drakconf.desktop
+
+[Containments][2][Applets][5][LayoutInformation]
+Order=3
 
 [Containments][2][Applets][6]
 geometry=228,3,32,32
@@ -102,6 +117,9 @@ zvalue=0
 [Containments][2][Applets][6][Configuration]
 Url=file:///usr/share/applications/firefox.desktop
 
+[Containments][2][Applets][6][LayoutInformation]
+Order=5
+
 [Containments][2][Applets][7]
 geometry=264,3,40,32
 immutability=1
@@ -111,17 +129,26 @@ zvalue=0
 [Containments][2][Applets][7][Configuration]
 displayedText=0
 
+[Containments][2][Applets][7][LayoutInformation]
+Order=6
+
 [Containments][2][Applets][8]
 geometry=308,3,746,32
 immutability=1
 plugin=tasks
 zvalue=0
 
+[Containments][2][Applets][8][LayoutInformation]
+Order=7
+
 [Containments][2][Applets][9]
 geometry=1058,3,86,32
 immutability=1
 plugin=systemtray
 zvalue=0
+
+[Containments][2][Applets][9][LayoutInformation]
+Order=8
 
 [General]
 immutability=2
