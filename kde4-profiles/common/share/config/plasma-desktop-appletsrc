@@ -44,6 +44,23 @@ immutability=1
 plugin=digital-clock
 zvalue=0
 
+[Containments][2][Applets][11][Configuration]
+Share=false
+announceInterval=0
+calendarType=locale
+defaultTimezone=Local
+displayHolidays=false
+holidaysRegion=
+plainClockColor=20,19,18
+plainClockFont=Sans Serif,32,-1,0,50,0,0,0,0,0
+showDate=true
+showDay=true
+showSeconds=false
+showTimezone=false
+showYear=false
+timeZones=
+useCustomColor=false
+
 [Containments][2][Applets][11][Configuration][PopupApplet]
 DialogHeight=271
 DialogWidth=279
