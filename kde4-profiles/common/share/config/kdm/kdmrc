@@ -429,7 +429,7 @@ ForgingSeed=1145020279
 #PluginsLogin=sign
 # Same as PluginsLogin, but for the shutdown dialog.
 # Default is "classic"
-PluginsLogin = classic, fprintd
+PluginsLogin=classic, fprintd
 #PluginsShutdown=modern
 # A list of options of the form Key=Value. The conversation plugins can query
 # these settings; it is up to them what possible keys are.
