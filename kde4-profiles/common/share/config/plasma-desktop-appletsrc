@@ -77,6 +77,9 @@ immutability=1
 plugin=simplelauncher
 zvalue=0
 
+[Containments][2][Applets][17][Shortcuts]
+global=Alt+F1
+
 [Containments][2][Applets][17][LayoutInformation]
 Order=0
 
