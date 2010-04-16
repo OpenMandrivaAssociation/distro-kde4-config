@@ -14,6 +14,4 @@ X-KDE-PluginInfo-EnabledByDefault=true
 
 [Wallpaper]
 defaultWallpaperTheme=/usr/share/mdk/backgrounds/default.jpg
-wallpaperplugin=timeoftheday
-wallpaperpluginmode=
 
