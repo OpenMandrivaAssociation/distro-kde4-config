@@ -1,6 +1,7 @@
 [General]
 BrowseThroughArchives=true
 ShowCopyMoveMenu=true
+ShowSpaceInfo=true
 
 [IconsMode]
 IconSize=48
