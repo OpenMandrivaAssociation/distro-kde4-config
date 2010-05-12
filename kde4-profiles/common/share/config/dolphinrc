@@ -2,5 +2,8 @@
 BrowseThroughArchives=true
 ShowCopyMoveMenu=true
 
+[IconsMode]
+IconSize=48
+
 [KDE]
 ShowDeleteCommand=false
