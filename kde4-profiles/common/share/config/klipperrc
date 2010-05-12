@@ -2,4 +2,4 @@
 update_info=klipper-kconfigxt.upd:KlipperNoSpacesInKeyNames
 
 [General]
-SyncClipboards=true
+SyncClipboards=false
