@@ -9,6 +9,6 @@ Fadeout=false
 Cool StreamsEnabled=false
 ImporterEnabled=false
 Librivox.orgEnabled=false
-LyricWikiEnabled=false
+LyricWikiEnabled=true
 Lyrics (Chinese Support)Enabled=true
 lyrcEnabled=true
