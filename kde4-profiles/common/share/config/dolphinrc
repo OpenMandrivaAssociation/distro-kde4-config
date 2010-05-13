@@ -3,6 +3,9 @@ BrowseThroughArchives=true
 ShowCopyMoveMenu=true
 ShowSpaceInfo=true
 
+[PreviewSettings]
+Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,ffmpegthumbs
+
 [IconsMode]
 IconSize=48
 
