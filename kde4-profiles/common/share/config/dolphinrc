@@ -7,6 +7,7 @@ ShowSpaceInfo=true
 Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,ffmpegthumbs
 
 [IconsMode]
+FirstLineTextEliding=true
 IconSize=48
 
 [KDE]
