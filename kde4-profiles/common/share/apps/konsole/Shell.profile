@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 ColorScheme=Linux
-Font=Monospace,12,-1,5,50,0,0,0,0,0
+Font=Monospace,11,-1,5,50,0,0,0,0,0
 
 [General]
 Icon=utilities-terminal
