@@ -11,13 +11,12 @@ plugin=folderview
 screen=0
 textColor=255,255,255
 zvalue=0
-wallpaperplugin=timeoftheday
-wallpaperpluginmode=
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage 
 
-[Containments][14][Wallpaper][timeoftheday]
-timeofthedayxml=/usr/share/mdk/backgrounds/Mandriva.xml
-wallpapercolor=56,111,150
-wallpaperposition=0
+[Containments][14][Wallpaper][image]
+slideTimer=10
+slidepaths=/usr/share/wallpapers/
 
 [Containments][2]
 activity=
