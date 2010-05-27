@@ -4,3 +4,6 @@ update_info=kmail.upd:1,kmail.upd:4,kmail.upd:5,kmail.upd:6,kmail.upd:7,kmail.up
 [General]
 checkmail-startup=true
 SystemTrayEnabled=true
+
+[UserInterface]
+ShowAnnotationControls=false
