@@ -1,5 +1,5 @@
 <!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
-<kpartgui version="12" name="dolphin">
+<kpartgui version="13" name="dolphin">
  <MenuBar alreadyVisited="1">
   <Menu name="file" alreadyVisited="1">
    <text>&amp;File</text>
@@ -78,7 +78,7 @@
     <Action name="show_terminal_panel"/>
    </Menu>
    <Menu name="navigation_bar">
-    <text context="@title:menu">Navigation Bar</text>
+    <text context="@title:menu">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
    </Menu>
@@ -138,6 +138,8 @@
   <Separator name="separator_1"/>
   <Action name="show_preview"/>
   <Action name="split_view"/>
+  <Separator name="separator_2"/>
+  <Action name="nepomuk_annotate"/>
  </ToolBar>
  <State name="new_file">
   <disable>
@@ -162,6 +164,7 @@
    <Action name="move_to_trash"/>
    <Action name="delete"/>
    <Action name="invert_selection"/>
+   <Action name="nepomuk_annotate"/>
   </enable>
  </State>
  <State name="has_no_selection">
@@ -173,6 +176,7 @@
    <Action name="delete"/>
    <Action name="delete_shortcut"/>
    <Action name="invert_selection"/>
+   <Action name="nepomuk_annotate"/>
   </disable>
  </State>
  <ToolBar iconText="icononly" name="searchToolBar" newline="false">
