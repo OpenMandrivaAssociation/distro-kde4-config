@@ -73,7 +73,7 @@ zvalue=0
 [Containments][2][Applets][17]
 geometry=0,3,80,32
 immutability=1
-plugin=simplelauncher
+plugin=launcher
 zvalue=0
 
 [Containments][2][Applets][17][Shortcuts]
