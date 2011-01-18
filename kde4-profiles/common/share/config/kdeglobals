@@ -3,7 +3,7 @@ update_info=kded.upd:kde3.0
 
 [General]
 widgetStyle=widgetStyle=qtcurve
-Nam=e Qt Curve
+Name= Qt Curve
 shadeSortColumn=true
 BrowserApplication=firefox
 
