@@ -2,8 +2,8 @@
 update_info=kded.upd:kde3.0
 
 [General]
-widgetStyle=iaorakde
-Name=Ia Ora Smooth
+widgetStyle=widgetStyle=qtcurve
+Nam=e Qt Curve
 shadeSortColumn=true
 BrowserApplication=firefox
 
