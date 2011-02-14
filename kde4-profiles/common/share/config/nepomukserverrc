@@ -1,10 +1,10 @@
 [Basic Settings]
 Configured repositories=main
 Soprano Backend=virtuosobackend
-Start Nepomuk=false
+Start Nepomuk=true
 
 [Service-nepomukstrigiservice]
-autostart=false
+autostart=true
 
 [main Settings]
 Storage Dir[$e]=$HOME/.kde4/share/apps/nepomuk/repository/main/
