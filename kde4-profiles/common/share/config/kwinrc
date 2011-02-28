@@ -32,6 +32,10 @@ TabBox=false
 BorderActivate=9
 BorderActivateAll=7
 
+[Style]
+BorderSize=0
+PluginLib=kwin3_qtcurve
+
 [Plugins]
 kwin4_effect_blurEnabled=false
 kwin4_effect_boxswitchEnabled=true
