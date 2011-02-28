@@ -292,11 +292,9 @@ ClientLogFile=.xsession-errors-%s
 # Widget style of the greeter. "" means the built-in default which currently
 # is "Plastik".
 # Default is ""
-GUIStyle=ia_ora
 # Widget color scheme of the greeter. "" means the built-in default which
 # currently is yellowish grey with some light blue and yellow elements.
 # Default is ""
-ColorScheme=IaOraSteel
 # What should be shown in the greeter's logo are:
 # "None" - nothing
 # "Logo" - the image specified by LogoPixmap
