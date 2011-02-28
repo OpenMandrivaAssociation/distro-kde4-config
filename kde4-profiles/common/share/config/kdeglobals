@@ -2,8 +2,8 @@
 update_info=kded.upd:kde3.0
 
 [General]
-ColorScheme=QtCurve
-Name= Qt Curve
+ColorScheme=Norway
+Name= Norway
 shadeSortColumn=true
 BrowserApplication=firefox
 
@@ -25,7 +25,7 @@ View Style=Simple
 SingleClick=false
 DoubleClickInterval=400
 contrast=7
-colorScheme=Ia Ora Smooth
+colorScheme=Norway
 
 [ColorEffects:Disabled]
 Color=112,111,110
