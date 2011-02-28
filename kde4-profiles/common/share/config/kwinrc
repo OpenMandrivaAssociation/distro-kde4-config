@@ -32,14 +32,6 @@ TabBox=false
 BorderActivate=9
 BorderActivateAll=7
 
-[Style]
-BorderSize=1
-ButtonsOnLeft=MS
-ButtonsOnRight=HIA__X
-CustomButtonPositions=false
-PluginLib=kwin3_iaora
-ShowToolTips=true
-
 [Plugins]
 kwin4_effect_blurEnabled=false
 kwin4_effect_boxswitchEnabled=true
