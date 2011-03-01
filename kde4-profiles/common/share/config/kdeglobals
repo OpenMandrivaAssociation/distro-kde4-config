@@ -3,6 +3,7 @@ update_info=kded.upd:kde3.0
 
 [General]
 ColorScheme=Norway
+widgetStyle=qtcurve
 Name= Norway
 shadeSortColumn=true
 BrowserApplication=firefox
