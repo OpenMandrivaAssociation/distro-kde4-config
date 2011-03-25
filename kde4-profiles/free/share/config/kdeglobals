@@ -1,13 +1,6 @@
 [$Version]
 update_info=kded.upd:kde3.0
 
-[General]
-colorScheme=ambiancy
-widgetStyle=qtcurve
-Name= Norway
-shadeSortColumn=true
-BrowserApplication=firefox
-
 [KFileDialog Settings]
 Automatically select filename extension=true
 Breadcrumb Navigation=true
@@ -25,8 +18,13 @@ View Style=Simple
 [KDE]
 SingleClick=false
 DoubleClickInterval=400
-contrast=7
-colorScheme=Norway
+contrast=5
+
+[General]
+widgetStyle=qtcurve
+shadeSortColumn=true
+BrowserApplication=firefox
+ColorScheme=ambiancy
 
 [ColorEffects:Disabled]
 Color=56,56,56
@@ -44,7 +42,7 @@ ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=2
-Enable=true
+Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
@@ -118,3 +116,8 @@ ForegroundNormal=60,59,55
 ForegroundPositive=30,157,27
 ForegroundVisited=164,78,34
 
+[WM]
+activeBackground=48,174,232
+activeForeground=255,255,255
+inactiveBackground=224,223,222
+inactiveForeground=75,71,67
