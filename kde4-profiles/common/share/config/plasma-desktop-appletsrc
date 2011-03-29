@@ -24,7 +24,7 @@ desktop=-1
 formfactor=2
 immutability=1
 location=4
-plugin=panel
+plugin=rosapanel
 screen=0
 zvalue=150
 
