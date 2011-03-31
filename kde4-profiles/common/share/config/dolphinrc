@@ -2,6 +2,7 @@
 BrowseThroughArchives=true
 ShowCopyMoveMenu=true
 ShowSpaceInfo=true
+GlobalViewProps=true
 
 [PreviewSettings]
 Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,ffmpegthumbs
