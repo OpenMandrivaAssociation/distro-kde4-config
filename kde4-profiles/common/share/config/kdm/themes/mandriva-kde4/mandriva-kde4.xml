@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+
+<greeter id="theme">
+
+    <item type="svg" id="background" background="true">
+        <normal file="/usr/share/mdk/backgrounds/default.jpg"/>
+	<pos width="100%" height="100%"/>
+    </item>
+
+    <item type="rect">
+	<pos y="50%" x="50%" width="100%" height="360" anchor="c"/>
+	<box orientation="vertical">
+
+	    <item type="rect" id="userslider-rect">
+		<pos width="100%" height="336"/>
+		<fixed>
+		    <item type="list" id="userslider">
+			<pos height="100%" width="100%"/>
+		    </item>
+		</fixed>
+	    </item>
+
+	    <item type="rect">
+		<pos width="box" height="24" x="50%" y="50%" anchor="c"/>
+		<box orientation="horizontal" spacing="0">
+
+		    <item type="entry" id="user-entry">
+			<pos height="0" width="0"/>
+		    </item>
+
+		    <item type="entry" id="pw-entry">
+			<pos y="50%" height="24" width="214"/>
+		    </item>
+
+		    <item type="rect">
+			<pos y="50%" height="24" width="100"/>
+			<fixed>
+			    <item type="button" id="login_button">
+    				<pos x="100%" y="50%" anchor="e"/>
+				<stock type="login"/>
+			    </item>
+			</fixed>
+		    </item>
+		</box>
+	    </item>
+
+	</box>
+    </item>
+
+    <item type="rect" id="timed-rect">
+	<show type="timed"/>
+	<pos anchor="n" x="50%" y="68%" width="box" height="box"/>
+	<box orientation="vertical" min-width="400" xpadding="10" ypadding="5" spacing="0">
+	    <item type="label" id="timed-label">
+		<normal color="#ffffff" font="Sans 12"/>
+		<pos x="50%" anchor="n"/>
+		<stock type="timed-label"/>
+	    </item>
+	</box>
+    </item>
+
+    <item type="label" id="pam-error">
+	<pos x="50%" y="80%" anchor="c"/>
+	<normal font="Sans Bold 14" color="#ffffff"/>
+	<text/>
+    </item>
+
+    <item type="rect" id="caps-lock-warning">
+	<pos anchor="n" x="50%" y="85%" width="box" height="box"/>
+	<box orientation="vertical" min-width="400" xpadding="10" ypadding="5" spacing="0">
+	    <item type="label">
+		<normal color="#FFFFFF" font="Sans 14"/>
+		<pos x="50%" anchor="n"/>
+    		<stock type="caps-lock-warning"/>
+    	    </item>
+	</box>
+    </item>
+
+    <item type="rect" id="system_button" button="true">
+        <show type="system" modes="console"/>
+        <pos x="-8" y="-8" width="32" height="32" anchor="se"/>
+        <fixed>
+    	    <item type="pixmap">
+		<normal file="system-shutdown.png" tint="#dddddd"/>
+		<prelight file="system-shutdown.png"/>
+		<active file="system-shutdown.png" tint="#b8bcdb"/>
+	    </item>
+	</fixed>
+    </item>
+
+</greeter>
