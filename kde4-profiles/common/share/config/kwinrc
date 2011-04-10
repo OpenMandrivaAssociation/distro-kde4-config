@@ -9,7 +9,7 @@ HiddenPreviews=0
 XRenderSmoothScale=false
 
 [Effect-Cube]
-Wallpaper=/usr/share/mdk/backgrounds/rosa.jpg 
+Wallpaper=/usr/share/mdk/backgrounds/rosa-background.jpg
 AnimateDesktopChange=false
 BorderActivate=9
 
