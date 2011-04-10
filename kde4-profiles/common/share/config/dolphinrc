@@ -1,15 +1,17 @@
 [General]
 BrowseThroughArchives=true
 ShowCopyMoveMenu=true
-ShowSpaceInfo=true
-GlobalViewProps=true
+RenameInline=true
+ShowSelectionToggle=false
+ShowSpaceInfo=false
+FirstRun=false
 
-[PreviewSettings]
-Plugins=directorythumbnail,imagethumbnail,jpegthumbnail,ffmpegthumbs
+[ColumnMode]
+FontWeight=50
 
 [IconsMode]
-FirstLineTextEliding=true
-IconSize=48
+FontWeight=50
+IconSize=64
+ItemHeight=104
+PreviewSize=96
 
-[KDE]
-ShowDeleteCommand=false
