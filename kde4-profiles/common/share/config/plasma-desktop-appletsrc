@@ -24,7 +24,3 @@ location=4
 plugin=rosapanel
 screen=0
 zvalue=150
-
-[General]
-immutability=2
-
