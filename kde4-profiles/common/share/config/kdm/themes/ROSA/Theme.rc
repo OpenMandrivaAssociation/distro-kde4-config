@@ -1,0 +1,9 @@
+[KSplash Theme: ROSA]
+Name = ROSA Splash Screen for KDE.
+Name[ru] = Экран загрузки для KDE - РОСА.
+Description = ROSA Splash Screen
+Version = 1.0.0
+Author = Kirill Monakhov <kirill.monakhov@rosalab.ru>
+
+# Theme behaviour settings.
+Engine = KSplashX
