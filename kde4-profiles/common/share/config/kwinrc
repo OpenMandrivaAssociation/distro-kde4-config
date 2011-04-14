@@ -33,8 +33,9 @@ BorderActivate=9
 BorderActivateAll=7
 
 [Style]
-BorderSize=0
-PluginLib=kwin3_qtcurve
+ButtonsOnRight=IAX
+CustomButtonPositions=true
+PluginLib=kwin3_deKorator
 
 [Plugins]
 kwin4_effect_blurEnabled=false
