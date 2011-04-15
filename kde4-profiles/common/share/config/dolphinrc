@@ -5,6 +5,8 @@ RenameInline=true
 ShowSelectionToggle=false
 ShowSpaceInfo=false
 FirstRun=false
+FilterBar=false
+ShowPreview=false
 
 [ColumnMode]
 FontWeight=50
