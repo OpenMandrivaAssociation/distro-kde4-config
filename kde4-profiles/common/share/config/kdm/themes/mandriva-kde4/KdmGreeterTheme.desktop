@@ -4,7 +4,6 @@
 [KdmGreeterTheme]
 Greeter=mandriva-kde4.xml
 Name=Mandriva KDE4
-Author=Ural Mullabaev (based on Helio Castro's theme)
+Author=Ural Mullabaev
 Copyright=(c) 2011 ROSA Lab.
-Copyright=(c) 2008 Helio Castro
 Screenshot=screenshot.png

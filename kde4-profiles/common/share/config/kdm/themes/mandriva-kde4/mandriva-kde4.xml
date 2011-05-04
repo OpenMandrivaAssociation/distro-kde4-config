@@ -26,22 +26,13 @@
 		<box orientation="horizontal" spacing="0">
 
 		    <item type="entry" id="user-entry">
-			<pos height="0" width="0"/>
+			<pos height="24" width="0"/>
 		    </item>
 
 		    <item type="entry" id="pw-entry">
-			<pos y="50%" height="24" width="214"/>
+			<pos y="50%" height="24" width="0"/>
 		    </item>
 
-		    <item type="rect">
-			<pos y="50%" height="24" width="100"/>
-			<fixed>
-			    <item type="button" id="login_button">
-    				<pos x="100%" y="50%" anchor="e"/>
-				<stock type="login"/>
-			    </item>
-			</fixed>
-		    </item>
 		</box>
 	    </item>
 
@@ -77,8 +68,20 @@
 	</box>
     </item>
 
-    <item type="rect" id="system_button" button="true">
-        <show type="system" modes="console"/>
+    <item type="rect" id="reboot_button" button="true">
+        <show type="reboot" modes="console"/>
+        <pos x="-40" y="-8" width="32" height="32" anchor="se"/>
+        <fixed>
+    	    <item type="pixmap">
+		<normal file="system-reboot.png" tint="#dddddd"/>
+		<prelight file="system-reboot.png"/>
+		<active file="system-reboot.png" tint="#b8bcdb"/>
+	    </item>
+	</fixed>
+    </item>
+
+    <item type="rect" id="halt_button" button="true">
+        <show type="halt" modes="console"/>
         <pos x="-8" y="-8" width="32" height="32" anchor="se"/>
         <fixed>
     	    <item type="pixmap">
