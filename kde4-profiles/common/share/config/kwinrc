@@ -1,6 +1,6 @@
 [Compositing]
 Backend=OpenGL
-Enabled=false
+Enabled=true
 GLDirect=false
 GLMode=TFP
 GLTextureFilter=0
