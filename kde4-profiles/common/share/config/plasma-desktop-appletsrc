@@ -14,6 +14,7 @@ wallpaperpluginmode=SingleImage
 [Containments][14][Wallpaper][image]
 slideTimer=10
 slidepaths=/usr/share/wallpapers/
+wallpaper=/usr/share/mdk/backgrounds/default.jpg
 
 [Containments][2]
 activity=
