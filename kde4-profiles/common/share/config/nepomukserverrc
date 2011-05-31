@@ -1,7 +1,7 @@
 [Basic Settings]
 Configured repositories=main
 Soprano Backend=virtuosobackend
-Start Nepomuk=true
+Start Nepomuk=false
 
 [Service-nepomukstrigiservice]
 autostart=true
