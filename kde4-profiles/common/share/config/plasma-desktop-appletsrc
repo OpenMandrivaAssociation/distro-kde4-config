@@ -1,4 +1,7 @@
 [Containments][14]
+customIconSize=64                                                                                                                                                                                                  
+drawShadows=true                                                                                                                                                                                                   
+flow=3
 activity=Desktop
 desktop=-1
 formfactor=0
