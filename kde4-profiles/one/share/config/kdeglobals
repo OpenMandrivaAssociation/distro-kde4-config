@@ -93,6 +93,8 @@ Theme=elementary
 [KDE]
 ShowIconsOnPushButtons=false
 colorScheme=elementary.color
+SingleClick=false
+DoubleClickInterval=400
 
 [WM]
 activeBackground=215,215,215

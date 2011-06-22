@@ -87,12 +87,15 @@ menuFont=Droid Sans,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Droid Sans,9,-1,5,50,0,0,0,0,0                                                                                                           
 taskbarFont=Droid Sans,10,-1,5,50,0,0,0,0,0                                                                                                                   
 toolBarFont=Droid Sans,9,-1,5,50,0,0,0,0,0
+
 [Icons]
 Theme=elementary
 
 [KDE]
 ShowIconsOnPushButtons=false
 colorScheme=elementary.color
+SingleClick=false
+DoubleClickInterval=400
 
 [WM]
 activeBackground=215,215,215
