@@ -89,7 +89,7 @@ taskbarFont=Droid Sans,10,-1,5,50,0,0,0,0,0
 toolBarFont=Droid Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=elementary
+Theme=rosa
 
 [KDE]
 ShowIconsOnPushButtons=false
