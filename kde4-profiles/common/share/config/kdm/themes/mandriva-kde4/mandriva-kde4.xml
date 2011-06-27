@@ -38,28 +38,32 @@
 	<text/>
     </item>
 
+    <item type="pixmap" id="buttons_background">
+	<normal file="buttons-background.png"/>
+	<pos x="-10" y="-10" width="114" height="68" anchor="se"/>
+    </item>
+
     <item type="rect" id="reboot_button" button="true">
         <show type="reboot" modes="console"/>
-        <pos x="-40" y="-8" width="32" height="32" anchor="se"/>
+        <pos x="-76" y="-19" width="41" height="41" anchor="se"/>
         <fixed>
     	    <item type="pixmap">
-		<normal file="system-reboot.png" tint="#dddddd"/>
-		<prelight file="system-reboot.png"/>
-		<active file="system-reboot.png" tint="#b8bcdb"/>
+		<normal file="reboot-normal.png"/>
+		<prelight file="reboot-prelight.png"/>
+		<active file="reboot-active.png"/>
 	    </item>
 	</fixed>
     </item>
 
     <item type="rect" id="halt_button" button="true">
         <show type="halt" modes="console"/>
-        <pos x="-8" y="-8" width="32" height="32" anchor="se"/>
+        <pos x="-17" y="-16" width="55" height="55" anchor="se"/>
         <fixed>
     	    <item type="pixmap">
-		<normal file="system-shutdown.png" tint="#dddddd"/>
-		<prelight file="system-shutdown.png"/>
-		<active file="system-shutdown.png" tint="#b8bcdb"/>
+		<normal file="halt-normal.png"/>
+		<prelight file="halt-prelight.png"/>
+		<active file="halt-active.png"/>
 	    </item>
 	</fixed>
     </item>
-
 </greeter>
