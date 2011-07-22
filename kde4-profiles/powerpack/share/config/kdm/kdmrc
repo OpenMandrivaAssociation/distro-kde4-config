@@ -292,9 +292,11 @@ ClientLogFile=.xsession-errors-%s
 # Widget style of the greeter. "" means the built-in default which currently
 # is "Plastik".
 # Default is ""
+GUIStyle=QtCurve
 # Widget color scheme of the greeter. "" means the built-in default which
 # currently is yellowish grey with some light blue and yellow elements.
 # Default is ""
+ColorScheme=Norway
 # What should be shown in the greeter's logo are:
 # "None" - nothing
 # "Logo" - the image specified by LogoPixmap
@@ -328,13 +330,13 @@ GreetString=Welcome to %n
 AntiAliasing=true
 # The font for the greeter headline.
 # Default is "Serif,20,bold"
-GreetFont=Sans,24,-1,5,50,0,0,0,0,0
+GreetFont=Droid Sans,24,-1,5,50,0,0,0,0,0
 # The normal font used in the greeter.
 # Default is "Sans Serif,10"
-StdFont=Sans,12,-1,5,50,0,0,0,0,0
+StdFont=Droid Sans,12,-1,5,50,0,0,0,0,0
 # The font used for the "Login Failed" message.
 # Default is "Sans Serif,10,bold"
-FailFont=Sans,12,-1,5,75,0,0,0,0,0
+FailFont=Droid Sans,12,-1,5,75,0,0,0,0,0
 # What to do with the Num Lock modifier for the time the greeter is running:
 # "Off" - turn off
 # "On" - turn on
@@ -388,7 +390,7 @@ FaceDir=/usr/share/faces
 # "Previous" - the user which successfully logged in last time
 # "Default" - the user specified in the DefaultUser option
 # Default is None
-PreselectUser=None
+PreselectUser=Previous
 # If this is true, the password input line is focused automatically if
 # a user is preselected.
 # Default is false
@@ -504,7 +506,7 @@ NoPassUsers=
 # Greeter config for local displays
 [X-:*-Greeter]
 # See above
-PreselectUser=None
+PreselectUser=Previous
 # See above
 FocusPasswd=true
 # Specify whether the greeter of local displays should start up in host chooser
