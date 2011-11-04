@@ -1,0 +1,8 @@
+[KSplash Theme: Mandriva]
+Name = Splash screen for Mandriva.
+Description = Splash screen for Mandriva.
+Version = 1.0
+Author = Mandriva / ROSA Laboratory
+
+# Theme behaviour settings.
+Engine = KSplashX

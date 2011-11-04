@@ -76,6 +76,7 @@ ForegroundPositive=26,154,26
 ForegroundVisited=66,115,163
 
 [General]
+BrowserApplication[$e]=!firefox
 widgetStyle=qgtkstylealt
 XftAntialias=true                                                                                                                                             
 XftHintStyle=hintslight                                                                                                                                       
@@ -102,7 +103,7 @@ activeBackground=215,215,215
 activeForeground=41,41,41
 inactiveBackground=215,215,215
 inactiveForeground=122,122,122
-activeFont=Droid Sans,9,-1,5,50,0,0,0,0,0
+activeFont=Droid Sans,10,-1,5,50,0,0,0,0,0
 
 [Toolbar style]                                                          
 ToolButtonStyle=NoText                                                                                                                                        

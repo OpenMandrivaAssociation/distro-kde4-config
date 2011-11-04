@@ -1,0 +1,6 @@
+[General]
+confirmLogout=true
+excludeApps=rosa-launcher
+loginMode=restorePreviousLogout
+offerShutdown=true
+shutdownType=0
