@@ -52,11 +52,11 @@ Action=Sound
 Execute=
 KTTS=
 Logfile=
-Sound=file:///usr/share/sounds/ia_ora-shutdown.wav
+Sound=file:///usr/share/sounds/moondrake-shutdown.wav
 
 [Event/startkde]
 Action=Sound
 Execute=
 KTTS=
 Logfile=
-Sound=file:///usr/share/sounds/ia_ora-startup.wav
+Sound=file:///usr/share/sounds/moondrake-startup.wav
