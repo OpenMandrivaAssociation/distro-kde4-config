@@ -52,11 +52,11 @@ Action=Sound
 Execute=
 KTTS=
 Logfile=
-Sound=file:///usr/share/sounds/moondrake-shutdown.wav
+Sound=file:///usr/share/sounds/moondrake-shutdown.ogg
 
 [Event/startkde]
 Action=Sound
 Execute=
 KTTS=
 Logfile=
-Sound=file:///usr/share/sounds/moondrake-startup.wav
+Sound=file:///usr/share/sounds/moondrake-startup.ogg
