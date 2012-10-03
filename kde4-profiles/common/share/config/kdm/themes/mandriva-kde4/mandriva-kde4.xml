@@ -38,6 +38,17 @@
 	<text/>
     </item>
 
+    <item type="rect" id="session_button" button="true">
+	<pos x="25" y="-25" anchor="c" width="box" height="box"/>
+	<box orientation="horizontal" spacing="10" xpadding="10">
+	    <item type="pixmap">
+		<normal file="../oxygen/session.png" tint="#ffffff"/>
+		<prelight file="../oxygen/session.png"/>
+		<active file="../oxygen/session.png" tint="#ffffff"/>
+	    </item>
+	</box>
+    </item>
+
     <item type="pixmap" id="buttons_background">
 	<normal file="buttons-background.png"/>
 	<pos x="-10" y="-10" width="114" height="68" anchor="se"/>
