@@ -2121,7 +2121,7 @@ Comment[x-test]=xxA print error has occurredxx
 Comment[zh_CN]=发生了一个打印错误
 Comment[zh_TW]=發生了列印錯誤
 Action=Popup|Sound
-Sound=KDE-Sys-Error-Printing.ogg
+Sound=moondrake-Sys-Error-Printing.ogg
 
 [Event/messageInformation]
 Name=Information Message
