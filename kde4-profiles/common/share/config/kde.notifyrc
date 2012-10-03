@@ -1777,7 +1777,7 @@ Comment[x-test]=xxKDE is exitingxx
 Comment[zh_CN]=KDE 正在退出
 Comment[zh_TW]=KDE 結束中
 Action=Sound
-Sound=moondrake-startup.ogg
+Sound=moondrake-shutdown.ogg
 
 [Event/cancellogout]
 Name=Logout Canceled
