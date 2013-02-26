@@ -14,6 +14,10 @@ zvalue=0
 wallpaperplugin=image
 wallpaperpluginmode=SingleImage
 
+[Containments][14][ToolBox]
+corner=1
+offset=0
+
 [Containments][14][Wallpaper][image]
 slideTimer=10
 slidepaths=/usr/share/wallpapers/
@@ -29,5 +33,3 @@ plugin=rosapanel
 screen=0
 zvalue=150
 
-[Cntainments][2][Applets][43][Configuration]
-dateStyle=2

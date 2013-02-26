@@ -1,81 +1,55 @@
 [ColorEffects:Disabled]
-Color=112,111,110
-IntensityEffect=2
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
 
 [ColorEffects:Inactive]
-ContrastEffect=2
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=184,184,184
-BackgroundNormal=192,192,192
-DecorationFocus=43,116,199
-DecorationHover=119,183,255
-ForegroundActive=255,128,224
-ForegroundInactive=64,64,64
-ForegroundLink=69,130,190
-ForegroundNegative=159,32,32
-ForegroundNeutral=159,159,32
-ForegroundNormal=64,64,64
-ForegroundPositive=32,159,32
-ForegroundVisited=66,115,163
+DecorationFocus=78,155,211
+DecorationHover=78,155,211
+ForegroundLink=41,78,115
+ForegroundVisited=17,31,44
 
 [Colors:Selection]
-BackgroundAlternate=140,189,238
-BackgroundNormal=175,203,221
-DecorationFocus=43,116,199
-DecorationHover=119,183,255
-ForegroundActive=255,128,224
-ForegroundInactive=0,0,0
-ForegroundLink=69,130,190
-ForegroundNegative=127,0,0
-ForegroundNeutral=127,127,0
-ForegroundNormal=0,0,0
-ForegroundPositive=0,127,0
-ForegroundVisited=66,115,163
+BackgroundNormal=164,204,237
+DecorationFocus=78,155,211
+DecorationHover=78,155,211
+ForegroundLink=41,78,115
+ForegroundVisited=17,31,44
 
 [Colors:Tooltip]
-BackgroundAlternate=243,243,243
-BackgroundNormal=255,255,255
-DecorationFocus=43,116,199
-DecorationHover=119,183,255
-ForegroundActive=255,128,224
-ForegroundInactive=64,64,64
-ForegroundLink=69,130,190
-ForegroundNegative=159,32,32
-ForegroundNeutral=159,159,32
-ForegroundNormal=64,64,64
-ForegroundPositive=32,159,32
-ForegroundVisited=66,115,163
+DecorationFocus=78,155,211
+DecorationHover=78,155,211
+ForegroundLink=41,78,115
+ForegroundVisited=17,31,44
 
 [Colors:View]
-BackgroundAlternate=243,243,243
-BackgroundNormal=255,255,255
-DecorationFocus=43,116,199
-DecorationHover=119,183,255
-ForegroundActive=255,128,224
-ForegroundInactive=64,64,64
-ForegroundLink=69,130,190
-ForegroundNegative=159,32,32
-ForegroundNeutral=159,159,32
-ForegroundNormal=64,64,64
-ForegroundPositive=32,159,32
-ForegroundVisited=66,115,163
+DecorationFocus=78,155,211
+DecorationHover=78,155,211
+ForegroundLink=41,78,115
+ForegroundVisited=17,31,44
 
 [Colors:Window]
-BackgroundAlternate=204,204,204
-BackgroundNormal=215,215,215
-DecorationFocus=43,116,199
-DecorationHover=119,183,255
-ForegroundActive=255,128,224
-ForegroundInactive=53,53,53
-ForegroundLink=69,130,190
-ForegroundNegative=154,26,26
-ForegroundNeutral=154,154,26
-ForegroundNormal=53,53,53
-ForegroundPositive=26,154,26
-ForegroundVisited=66,115,163
+BackgroundNormal=240,240,240
+DecorationFocus=78,155,211
+DecorationHover=78,155,211
+ForegroundLink=41,78,115
+ForegroundVisited=17,31,44
 
 [General]
+ColorScheme=ROSA
+shadeSortColumn=true
 BrowserApplication[$e]=!firefox
 widgetStyle=qgtkstylealt
 XftAntialias=true                                                                                                                                             
@@ -93,17 +67,21 @@ toolBarFont=Droid Sans,9,-1,5,50,0,0,0,0,0
 Theme=rosa
 
 [KDE]
-ShowIconsOnPushButtons=false
-colorScheme=elementary.color
+contrast=7
+colorScheme=ROSA
 SingleClick=false
 DoubleClickInterval=400
+ShowIconsOnPushButtons=false
 
 [WM]
+activeBlend=41,41,41
 activeBackground=215,215,215
 activeForeground=41,41,41
+inactiveBlend=122,122,122
 inactiveBackground=215,215,215
 inactiveForeground=122,122,122
 activeFont=Droid Sans,10,-1,5,50,0,0,0,0,0
+
 
 [Toolbar style]                                                          
 ToolButtonStyle=NoText                                                                                                                                        

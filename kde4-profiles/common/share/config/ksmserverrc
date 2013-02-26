@@ -1,6 +1,6 @@
 [General]
 confirmLogout=true
 excludeApps=rosa-launcher
-loginMode=restorePreviousLogout
+loginMode=default
 offerShutdown=true
 shutdownType=0

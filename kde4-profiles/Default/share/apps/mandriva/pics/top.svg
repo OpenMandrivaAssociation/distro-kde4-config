@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="253"
+   height="17"
+   id="svg7857"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="top.svg">
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,0)"
+     style="display:inline">
+    <g
+       id="g4174">
+      <rect
+         y="0"
+         x="0"
+         height="17"
+         width="253"
+         id="rect3337"
+         style="fill:#7f8c94;fill-opacity:1" />
+      <rect
+         y="0"
+         x="0"
+         height="8"
+         width="252"
+         id="rect3337"
+         style="fill:#55a5d8;fill-opacity:1" />
+      <rect
+         y="8"
+         x="0"
+         height="8"
+         width="252"
+         id="rect3339"
+         style="fill:#1f609f;fill-opacity:1;stroke:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="14"
+       y="13"
+       id="text3243"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3245"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">ROSA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="192"
+       y="13"
+       id="text3243-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3245-1"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold">KDE 4.9</tspan></text>
+  </g>
+</svg>

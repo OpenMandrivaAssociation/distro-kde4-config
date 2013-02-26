@@ -1,5 +1,5 @@
 <!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
-<kpartgui version="13" name="dolphin">
+<kpartgui version="14" name="dolphin">
  <MenuBar alreadyVisited="1">
   <Menu name="file" alreadyVisited="1">
    <text>&amp;File</text>
@@ -15,9 +15,19 @@
    <Action name="properties"/>
    <Separator weakSeparator="1"/>
    <Action name="file_quit"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
   </Menu>
   <Menu name="edit" alreadyVisited="1">
    <text>&amp;Edit</text>
+   <Action name="edit_undo"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_cut"/>
+   <Action name="edit_copy"/>
+   <Action name="edit_paste"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_find"/>
+   <Separator weakSeparator="1"/>
    <Action name="edit_undo"/>
    <Separator weakSeparator="1"/>
    <Action name="edit_cut"/>
@@ -34,6 +44,9 @@
    <Action name="view_zoom_in"/>
    <Action name="view_zoom_out"/>
    <Separator weakSeparator="1"/>
+   <Action name="view_zoom_in"/>
+   <Action name="view_zoom_out"/>
+   <Separator weakSeparator="1"/>
    <Action name="view_mode"/>
    <Action name="sort"/>
    <Action name="additional_info"/>
@@ -46,7 +59,7 @@
    <Action name="stop"/>
    <Separator/>
    <Action name="panels"/>
-   <Menu name="navigation_bar">
+   <Menu name="location_bar">
     <text context="@title:menu">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
@@ -61,8 +74,14 @@
    <Action name="go_forward"/>
    <Action name="go_home"/>
    <Separator weakSeparator="1"/>
+   <Action name="go_up"/>
+   <Action name="go_back"/>
+   <Action name="go_forward"/>
+   <Action name="go_home"/>
+   <Separator weakSeparator="1"/>
    <Action name="closed_tabs"/>
   </Menu>
+  <Separator weakSeparator="1"/>
   <Menu name="tools" alreadyVisited="1">
    <text>&amp;Tools</text>
    <Action name="show_filter_bar"/>
@@ -70,8 +89,14 @@
    <Action name="compare_files"/>
    <Action name="change_remote_encoding"/>
   </Menu>
-  <Menu name="settings">
+  <Menu name="settings" alreadyVisited="1">
    <text>&amp;Settings</text>
+   <Action name="options_show_menubar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+   <Separator weakSeparator="1"/>
    <Action name="options_show_menubar"/>
    <Merge name="StandardToolBarMenuHandler"/>
    <Merge name="KMDIViewActions"/>
@@ -81,10 +106,20 @@
    <Action name="options_configure"/>
   </Menu>
   <Separator weakSeparator="1"/>
-  <Menu name="help">
+  <Menu name="help" alreadyVisited="1">
    <text>&amp;Help</text>
    <Action name="help_contents"/>
    <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
    <Separator weakSeparator="1"/>
    <Action name="help_report_bug"/>
    <Separator weakSeparator="1"/>
@@ -99,9 +134,8 @@
   <Action name="go_back"/>
   <Action name="go_forward"/>
   <Separator name="separator_0"/>
-  <Action name="view_mode"/>
-  <Separator name="separator_1"/>
   <Action name="edit_find"/>
+  <Action name="view_mode"/>
  </ToolBar>
  <State name="new_file">
   <disable>
@@ -146,8 +180,8 @@
   <Action priority="0" name="go_home"/>
   <Action priority="0" name="stop"/>
   <Action priority="0" name="icons"/>
+  <Action priority="0" name="compact"/>
   <Action priority="0" name="details"/>
-  <Action priority="0" name="columns"/>
   <Action priority="0" name="view_zoom_in"/>
   <Action priority="0" name="view_zoom_out"/>
   <Action priority="0" name="edit_cut"/>
