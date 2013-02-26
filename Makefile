@@ -1,6 +1,6 @@
 PACKAGE = mandriva-kde4-config
 NAME = mandriva-kde4-config
-VERSION = 2012
+VERSION = 2013.0
 
 clean:
 	find . -type d -name '.xvpics' -o -name '*~' |xargs rm -rf
