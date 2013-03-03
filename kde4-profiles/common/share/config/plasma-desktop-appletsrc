@@ -33,3 +33,5 @@ plugin=rosapanel
 screen=0
 zvalue=150
 
+[Containments][2][Applets][43][Configuration]
+dateStyle=2
