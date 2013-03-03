@@ -1,9 +1,0 @@
-# This is not really a .desktop file like the rest, but it is useful to treat
-# it as such
-
-[KdmGreeterTheme]
-Greeter=mandriva-kde4.xml
-Name=Mandriva KDE4
-Author=Ural Mullabaev
-Copyright=(c) 2011 ROSA Lab.
-Screenshot=screenshot.png
