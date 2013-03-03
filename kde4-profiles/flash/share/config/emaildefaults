@@ -3,7 +3,7 @@ Profile=Default
 
 [PROFILE_Par défaut]
 EmailAddress=
-EmailClient[$e]=thunderbird
+EmailClient[$e]=kmail
 FullName=
 Organization=
 ReplyAddr=

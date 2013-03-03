@@ -2,6 +2,6 @@
 Profile=Default
 
 [PROFILE_Default]
-EmailClient[$e]=mozilla-thunderbird
+EmailClient[$e]=kmail
 ServerType=
 TerminalClient=false
