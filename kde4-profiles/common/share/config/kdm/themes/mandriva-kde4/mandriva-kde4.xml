@@ -4,7 +4,7 @@
 <greeter id="theme">
 
     <item type="svg" id="background" background="true">
-        <normal file="/usr/share/mdk/backgrounds/rosa-background.jpg"/>
+        <normal file="/usr/share/mdk/backgrounds/default.png"/>
 	<pos width="100%" height="100%"/>
     </item>
 
@@ -38,15 +38,20 @@
 	<text/>
     </item>
 
+    <item type="pixmap" id="session_background">
+	<normal file="session-background.png"/>
+	<pos x="10" y="-12" width="55" height="55" anchor="sw"/>
+    </item>
+
     <item type="rect" id="session_button" button="true">
-	<pos x="25" y="-25" anchor="c" width="box" height="box"/>
-	<box orientation="horizontal" spacing="10" xpadding="10">
-	    <item type="pixmap">
-		<normal file="../oxygen/session.png" tint="#ffffff"/>
-		<prelight file="../oxygen/session.png"/>
-		<active file="../oxygen/session.png" tint="#ffffff"/>
+	<pos x="15" y="-17" width="45" height="45" anchor="sw"/>
+        <fixed>
+    	    <item type="pixmap">
+		<normal file="session-normal.png"/>
+		<prelight file="session-prelight.png"/>
+		<active file="session-active.png"/>
 	    </item>
-	</box>
+	</fixed>
     </item>
 
     <item type="pixmap" id="buttons_background">
@@ -77,4 +82,5 @@
 	    </item>
 	</fixed>
     </item>
+
 </greeter>
