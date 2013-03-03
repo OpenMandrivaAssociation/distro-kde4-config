@@ -140,10 +140,10 @@ Willing=/usr/share/X11/xdm/Xwilling
 [Shutdown]
 # The command (subject to word splitting) to run to halt the system.
 # Default is "/sbin/poweroff"
-HaltCmd=/sbin/poweroff
+HaltCmd=/bin/poweroff
 # The command (subject to word splitting) to run to reboot the system.
 # Default is "/sbin/reboot"
-RebootCmd=/usr/bin/reboot
+RebootCmd=/bin/reboot
 # Whether it is allowed to shut down the system via the global command FiFo.
 # Default is false
 #AllowFifo=true
@@ -342,7 +342,7 @@ FailFont=Droid Sans,12,-1,5,75,0,0,0,0,0
 # "On" - turn on
 # "Keep" - do not change the state
 # Default is Keep
-#NumLock=Off
+NumLock=On
 # Language and locale to use in the greeter, encoded like $LC_LANG.
 # Default is "en_US"
 # Language=en_US
