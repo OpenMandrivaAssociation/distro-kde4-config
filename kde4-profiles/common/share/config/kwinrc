@@ -31,7 +31,7 @@ TabBox=false
 
 [Effect-Cube]
 BorderActivate=9
-Wallpaper=/usr/share/mdk/backgrounds/rosa-background.jpg
+Wallpaper=/usr/share/mdk/backgrounds/default.png
 BorderActivateCylinder=9
 BorderActivateSphere=9
 
