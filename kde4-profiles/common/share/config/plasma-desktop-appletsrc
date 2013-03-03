@@ -21,7 +21,7 @@ offset=0
 [Containments][14][Wallpaper][image]
 slideTimer=10
 slidepaths=/usr/share/wallpapers/
-wallpaper=/usr/share/mdk/backgrounds/default.jpg
+wallpaper=/usr/share/mdk/backgrounds/default.png
 
 [Containments][2]
 activity=
