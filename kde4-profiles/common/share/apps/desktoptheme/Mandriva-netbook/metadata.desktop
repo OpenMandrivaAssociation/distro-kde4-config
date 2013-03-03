@@ -17,7 +17,7 @@ X-KDE-PluginInfo-EnabledByDefault=true
 FallbackTheme=default
 
 [Wallpaper]
-defaultWallpaperTheme=/usr/share/mdk/backgrounds/rosa-background.jpg 
+defaultWallpaperTheme=/usr/share/mdk/backgrounds/default.png
 wallpaperplugin=timeoftheday
 wallpaperpluginmode=
 
