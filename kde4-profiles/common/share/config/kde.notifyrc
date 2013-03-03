@@ -236,7 +236,7 @@ Comment[x-test]=xxThe trash has been emptiedxx
 Comment[zh_CN]=回收站已经被清空
 Comment[zh_TW]=資源回收筒已被清空
 Action=Sound
-Sound=moondrake/Sys-Trash-Emptied.oga
+Sound=moondrake/stereo/Sys-Trash-Emptied.oga
 
 [Event/Textcompletion: rotation]
 Name=Textcompletion: Rotation
@@ -402,7 +402,7 @@ Comment[x-test]=xxThe end of the list of matches has been reachedxx
 Comment[zh_CN]=已经到达匹配列表的末尾
 Comment[zh_TW]=到達符合清單的尾端
 Action=
-Sound=moondrake/Sys-List-End.oga
+Sound=moondrake/stereo/Sys-List-End.oga
 
 [Event/Textcompletion: no match]
 Name=Textcompletion: No Match
@@ -569,7 +569,7 @@ Comment[x-test]=xxNo matching completion was foundxx
 Comment[zh_CN]=没有发现匹配的补全
 Comment[zh_TW]=找不到符合的補完清單
 Action=
-Sound=moondrake/Sys-List-Match-No.oga
+Sound=moondrake/stereo/Sys-List-Match-No.oga
 
 [Event/Textcompletion: partial match]
 Name=Textcompletion: Partial Match
@@ -736,7 +736,7 @@ Comment[x-test]=xxThere is more than one possible matchxx
 Comment[zh_CN]=有超过一个可能的匹配
 Comment[zh_TW]=有一個以上符合
 Action=
-Sound=moondrake/Sys-List-Match-Multiple.oga
+Sound=moondrake/stereo/Sys-List-Match-Multiple.oga
 
 [Event/fatalerror]
 Name=Fatal Error
@@ -909,7 +909,7 @@ Comment[x-test]=xxThere was a serious error causing the program to exitxx
 Comment[zh_CN]=有一个严重错误导致程序退出
 Comment[zh_TW]=程式發生了嚴重錯誤，必須離開
 Action=Popup|Sound
-Sound=moondrake/Sys-App2-Error-Serious.oga
+Sound=moondrake/stereo/Sys-App2-Error-Serious.oga
 
 
 [Event/notification]
@@ -1083,7 +1083,7 @@ Comment[x-test]=xxSomething special happened in the programxx
 Comment[zh_CN]=这个程序中发生了特殊的事情
 Comment[zh_TW]=程式中發生了特殊事件
 Action=Sound|Popup
-Sound=moondrake/Sys-Special.oga
+Sound=moondrake/stereo/Sys-Special.oga
 
 [Event/warning]
 Name=Warning
@@ -1256,7 +1256,7 @@ Comment[x-test]=xxThere was an error in the program which may cause problemsxx
 Comment[zh_CN]=程序中有一个错误，它可能导致一些问题
 Comment[zh_TW]=程式中發生錯誤，可能造成問題
 Action=Popup|Sound
-Sound=moondrake/Sys-App2-Error.oga
+Sound=moondrake/stereo/Sys-App2-Error.oga
 
 [Event/catastrophe]
 Name=Catastrophe
@@ -1422,7 +1422,7 @@ Comment[x-test]=xxA very serious error occurred, at least causing the program to
 Comment[zh_CN]=发生了一个非常严重的错误，至少已经导致了这个程序退出
 Comment[zh_TW]=發生了非常嚴重的問題，至少造成程式被迫結束
 Action=Popup|Sound
-Sound=moondrake/Sys-App2-Error-Serious.oga
+Sound=moondrake/stereo/Sys-App2-Error-Serious.oga
 
 
 [Event/startkde]
@@ -1600,7 +1600,7 @@ Comment[x-test]=xxKDE is starting upxx
 Comment[zh_CN]=KDE 正在启动
 Comment[zh_TW]=KDE 啟動中
 Action=Sound
-Sound=moondrake/startup.oga
+Sound=moondrake/stereo/startup.oga
 
 [Event/exitkde]
 Name=Logout
@@ -1777,7 +1777,7 @@ Comment[x-test]=xxKDE is exitingxx
 Comment[zh_CN]=KDE 正在退出
 Comment[zh_TW]=KDE 結束中
 Action=Sound
-Sound=moondrake/shutdown.oga
+Sound=moondrake/stereo/shutdown.oga
 
 [Event/cancellogout]
 Name=Logout Canceled
@@ -2121,7 +2121,7 @@ Comment[x-test]=xxA print error has occurredxx
 Comment[zh_CN]=发生了一个打印错误
 Comment[zh_TW]=發生了列印錯誤
 Action=Popup|Sound
-Sound=moondrake/Sys-Error-Printing.oga
+Sound=moondrake/stereo/Sys-Error-Printing.oga
 
 [Event/messageInformation]
 Name=Information Message
@@ -2293,7 +2293,7 @@ Comment[wa]=On messaedje d' informåcion est mostré
 Comment[x-test]=xxAn information message is being shownxx
 Comment[zh_CN]=正在显示一条信息消息
 Comment[zh_TW]=將顯示資訊訊息
-Sound=moondrake/Sys-App-Message.oga
+Sound=moondrake/stereo/Sys-App-Message.oga
 Action=Sound|Taskbar
 
 [Event/messageWarning]
@@ -2466,7 +2466,7 @@ Comment[wa]=On messaedje d' adviertixhmint est mostré
 Comment[x-test]=xxA warning message is being shownxx
 Comment[zh_CN]=正在显示一条警告消息
 Comment[zh_TW]=將顯示警告訊息
-Sound=moondrake/Sys-Warning.oga
+Sound=moondrake/stereo/Sys-Warning.oga
 Action=Sound|Taskbar
 
 [Event/messageCritical]
@@ -2634,7 +2634,7 @@ Comment[wa]=On critike messaedje est mostré
 Comment[x-test]=xxA critical message is being shownxx
 Comment[zh_CN]=正在显示一条重要消息
 Comment[zh_TW]=將顯示嚴重訊息
-Sound=moondrake/Sys-App2-Error-Critical.oga
+Sound=moondrake/stereo/Sys-App2-Error-Critical.oga
 Action=Sound|Taskbar
 
 [Event/messageboxQuestion]
@@ -2810,7 +2810,7 @@ Comment[wa]=Ene kesse est dimandêye
 Comment[x-test]=xxA question is being askedxx
 Comment[zh_CN]=正在询问一个问题
 Comment[zh_TW]=將詢問使用者問題
-Sound=moondrake/Sys-Question.oga
+Sound=moondrake/stereo/Sys-Question.oga
 Action=Sound|Taskbar
 
 
@@ -2986,4 +2986,4 @@ Comment[x-test]=xxSound bellxx
 Comment[zh_CN]=响铃
 Comment[zh_TW]=音效鈴聲
 Action=Sound
-Sound=moondrake/Sys-App-Message.oga
+Sound=moondrake/stereo/Sys-App-Message.oga
