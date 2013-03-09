@@ -142,7 +142,7 @@ kwin4_effect_thumbnailasideEnabled=false
 kwin4_effect_trackmouseEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowgeometryEnabled=false
-kwin4_effect_wobblywindowsEnabled=false
+kwin4_effect_wobblywindowsEnabled=true
 kwin4_effect_zoomEnabled=true
 
 [TabBox]
