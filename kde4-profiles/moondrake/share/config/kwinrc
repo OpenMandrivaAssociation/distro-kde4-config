@@ -43,6 +43,9 @@ BorderActivate=9
 BorderActivateAll=9
 TabBox=false
 
+[Effect-DimInactive]
+Strength=15
+
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
@@ -102,7 +105,7 @@ kwin4_effect_cylinderEnabled=false
 kwin4_effect_dashboardEnabled=true
 kwin4_effect_desktopgridEnabled=true
 kwin4_effect_dialogparentEnabled=true
-kwin4_effect_diminactiveEnabled=false
+kwin4_effect_diminactiveEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_explosionEnabled=false
 kwin4_effect_fadeEnabled=true
