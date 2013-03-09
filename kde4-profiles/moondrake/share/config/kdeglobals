@@ -85,7 +85,6 @@ ForegroundVisited=100,74,155
 
 [General]
 ColorScheme=Norway
-widgetStyle=qgtkstylealt
 XftAntialias=true                                                                                                                                             
 XftHintStyle=hintslight                                                                                                                                       
 XftSubPixel=rgb                                                                                                                                               
@@ -96,6 +95,7 @@ menuFont=Droid Sans,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Droid Sans,9,-1,5,50,0,0,0,0,0                                                                                                           
 taskbarFont=Droid Sans,10,-1,5,50,0,0,0,0,0                                                                                                                   
 toolBarFont=Droid Sans,9,-1,5,50,0,0,0,0,0
+WidgetStyle=oxygen
 
 [Icons]
 Theme=rosa
