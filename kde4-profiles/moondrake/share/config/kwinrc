@@ -134,7 +134,7 @@ kwin4_effect_sheetEnabled=false
 kwin4_effect_showfpsEnabled=false
 kwin4_effect_showpaintEnabled=false
 kwin4_effect_slideEnabled=true
-kwin4_effect_slidebackEnabled=false
+kwin4_effect_slidebackEnabled=true
 kwin4_effect_slidingpopupsEnabled=false
 kwin4_effect_snaphelperEnabled=false
 kwin4_effect_snowEnabled[$d]
