@@ -88,13 +88,13 @@ ColorScheme=Norway
 XftAntialias=true                                                                                                                                             
 XftHintStyle=hintslight                                                                                                                                       
 XftSubPixel=rgb                                                                                                                                               
-desktopFont=Droid Sans,10,-1,5,50,0,0,0,0,0                                                                                                                   
-fixed=Monospace,10,-1,5,50,0,0,0,0,0                                                                                                                          
-font=Droid Sans,10,-1,5,50,0,0,0,0,0                                                                                                                          
-menuFont=Droid Sans,10,-1,5,50,0,0,0,0,0                                                                                                                      
-smallestReadableFont=Droid Sans,9,-1,5,50,0,0,0,0,0                                                                                                           
-taskbarFont=Droid Sans,10,-1,5,50,0,0,0,0,0                                                                                                                   
-toolBarFont=Droid Sans,9,-1,5,50,0,0,0,0,0
+desktopFont=Liberation Sans,10,-1,5,50,0,0,0,0,0
+fixed=Liberation Mono,10,-1,5,50,0,0,0,0,0
+font=Liberation Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Liberation Sans,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
+taskbarFont=Liberation Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
 WidgetStyle=oxygen
 
 [Icons]
