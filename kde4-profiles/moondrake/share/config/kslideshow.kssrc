@@ -1,0 +1,4 @@
+[Settings]
+Directory[$e]=/usr/share/mdk/screensaver
+PrintPath=false
+SubDirectory=true
