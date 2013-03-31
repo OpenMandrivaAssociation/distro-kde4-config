@@ -1,5 +1,5 @@
 [General]
-Recent applications=/usr/share/applications/mandriva-drakconf.desktop,/usr/share/applications/kde4/k3b.desktop,/usr/share/applications/kde4/kwrite.desktop,/usr/share/applications/kde4/kcalc.desktop,/usr/share/applications/shotwell.desktop,/usr/lib/libreoffice/share/xdg/calc.desktop,/usr/lib/libreoffice/share/xdg/writer.desktop
+Recent applications=/usr/share/applications/mandriva-drakconf.desktop,/usr/share/applications/kde4/k3b.desktop,/usr/share/applications/kde4/kwrite.desktop,/usr/share/applications/kde4/kcalc.desktop,/usr/share/applications/kde4/digikam.desktop,/usr/lib/libreoffice/share/xdg/calc.desktop,/usr/lib/libreoffice/share/xdg/writer.desktop
 ScrollWheelSpeed=3
 
 [PlasmaRunnerManager]
