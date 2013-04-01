@@ -7,22 +7,13 @@ clean:
 
 # rules to build a distributable rpm
 
-dist: changelog
-	rm -rf $(NAME)-$(VERSION)*.tar* $(NAME)-$(VERSION)
-	@if [ -e ".svn" ]; then \
-		$(MAKE) dist-svn; \
-	elif [ -e ".git" ]; then \
-		$(MAKE) dist-git; \
-	else \
-		echo "Unknown SCM (not SVN nor GIT)";\
-		exit 1; \
-	fi;
+dist: dist-git
 	$(info $(NAME)-$(VERSION).tar.xz is ready)
 
 dist-git: 
-	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -c > $(NAME)-$(VERSION).tar.xz;
+	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -c > $(NAME)-$(VERSION).tar.xz;
 
-dist-svn: 
+dist-svn:  changelog
 	svn export -q -rBASE . $(NAME)-$(VERSION)
 	tar cfJ $(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION)
 	rm -rf $(NAME)-$(VERSION)
