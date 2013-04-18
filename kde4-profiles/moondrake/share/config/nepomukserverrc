@@ -1,9 +1,0 @@
-[Basic Settings]
-Start Nepomuk=true
-
-[Service-nepomukfileindexer]
-autostart=true
-
-[main Settings]
-Maximum memory=50
-Used Soprano Backend=virtuosobackend
