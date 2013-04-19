@@ -1,5 +1,5 @@
-PACKAGE = mandriva-kde4-config
-NAME = mandriva-kde4-config
+PACKAGE = moondrake-kde4-config
+NAME = moondrake-kde4-config
 VERSION = 2013.0
 
 clean:
