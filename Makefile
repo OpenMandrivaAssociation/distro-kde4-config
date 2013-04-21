@@ -1,5 +1,5 @@
-PACKAGE = moondrake-kde4-config
-NAME = moondrake-kde4-config
+PACKAGE = distro-kde4-config
+NAME = distro-kde4-config
 VERSION = 2013.0
 
 clean:
