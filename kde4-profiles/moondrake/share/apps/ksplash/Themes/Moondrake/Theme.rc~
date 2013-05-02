@@ -1,0 +1,8 @@
+[KSplash Theme: Moondrake]
+Name = Splash screen for Moondrake GNU/Linux.
+Description = Splash screen Moondrake GNU/Linux.
+Version = 1.0
+Author = ROSA Laboratory/Moondrake
+
+# Theme behaviour settings.
+Engine = KSplashX

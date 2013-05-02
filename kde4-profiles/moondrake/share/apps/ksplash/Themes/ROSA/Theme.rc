@@ -1,8 +1,0 @@
-[KSplash Theme: ROSA]
-Name = Splash screen for ROSA Desktop.
-Description = Splash screen ROSA Desktop.
-Version = 1.0
-Author = ROSA Laboratory
-
-# Theme behaviour settings.
-Engine = KSplashX
