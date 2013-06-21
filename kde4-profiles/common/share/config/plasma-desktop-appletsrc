@@ -35,3 +35,8 @@ zvalue=150
 
 [Containments][2][Applets][43][Configuration]
 dateStyle=2
+
+[Containments][2][Applets][33]
+immutability=1
+plugin=kimpanel
+zvalue=149
