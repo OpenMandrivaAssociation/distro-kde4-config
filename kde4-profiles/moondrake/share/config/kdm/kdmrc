@@ -531,7 +531,7 @@ LoginMode=DefaultLocal
 # The VT the X-server should run on; auto-assign if zero, don't assign if -1.
 # Better leave it zero and use ServerVTs.
 # Default is 0
-#ServerVT=7
+ServerVT=7
 # Enable automatic login. USE WITH EXTREME CARE!
 # Default is false
 #AutoLoginEnable=true
