@@ -153,11 +153,12 @@ RebootCmd=/bin/reboot
 #AllowFifoNow=false
 # The boot manager KDM should use for offering boot options in the
 # shutdown dialog.
-# "None" - no boot manager
-# "Grub" - Grub boot manager
-# "Lilo" - Lilo boot manager (Linux on i386 &amp; x86-64 only)
+# "None"  - no boot manager
+# "Grub"  - Grub legacy boot manager
+# "Grub2" - Grub 2 boot manager
+# "Lilo"  - Lilo boot manager (Linux on i386 &amp; x86-64 only)
 # Default is None
-BootManager=Grub
+BootManager=Grub2
 
 # Rough estimations about how many seconds KDM will spend at most on
 # - opening a connection to the X-server (OpenTime) if the attempt
