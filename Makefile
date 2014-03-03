@@ -11,7 +11,7 @@ dist: dist-git
 	$(info $(NAME)-$(VERSION).tar.xz is ready)
 
 dist-git: 
-	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -c > $(NAME)-$(VERSION).tar.xz;
+	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -vT0 > $(NAME)-$(VERSION).tar.xz
 
 dist-svn:  changelog
 	svn export -q -rBASE . $(NAME)-$(VERSION)
