@@ -1,6 +1,6 @@
 PACKAGE = distro-kde4-config
 NAME = distro-kde4-config
-VERSION = 2013.0
+VERSION = 2013.5
 
 clean:
 	find . -type d -name '.xvpics' -o -name '*~' |xargs rm -rf
